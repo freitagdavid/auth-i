@@ -1,0 +1,25 @@
+{
+    "name": "auth-i",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/freitagdavid/auth-i.git",
+    "author": "FreitagDavid <freitagdavid@outlook.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "test": "nodemon --inspect index.js"
+    },
+    "dependencies": {
+        "bcrypt": "^3.0.3",
+        "connect-session-knex": "^1.4.0",
+        "express": "^4.16.4",
+        "express-session": "^1.15.6",
+        "helmet": "^3.15.0",
+        "hibp": "^7.4.0",
+        "knex": "^0.16.3",
+        "sqlite3": "^4.0.6"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.9"
+    }
+}
